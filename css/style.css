@@ -649,7 +649,8 @@ h2 span{
 }
 
 .ice,
-.burger_1{
+.burger_1,
+.farm{
     padding-bottom: 40px;
 }
 
@@ -689,11 +690,19 @@ h2 span{
 }
 
 
-.onimg_banner2{
+.onimg_banner2,
+.onimg_banner3{
     width: 100%;
     position: relative;
     max-width: 35%;
-    margin: 0 auto;
+}
+
+.banner_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .onimg_banner1{
@@ -1678,7 +1687,8 @@ dd{
         display: block;
     }
 
-    .onimg_banner2{
+    .onimg_banner2,
+    .onimg_banner3{
         max-width: 60%;
     }
 
