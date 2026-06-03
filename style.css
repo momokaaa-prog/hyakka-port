@@ -832,6 +832,7 @@ h2 span{
 
 .about_about{
     position: relative;
+    width: 100%;
 }
 
 .about_about h2{
@@ -1947,24 +1948,6 @@ dd{
         font-size: 14px;
         line-height: 2em;
     }
-
-    @keyframes sway1 {
-    0% {
-    transform: translateX(0px) rotate(0deg);
-    }
-    100% {
-    transform: translateX(75px) rotate(-45deg);
-    }
-}
-
-    @keyframes sway2 {
-    0% {
-    transform: translateX(75px) rotate(-45deg);
-    }
-    100% {
-    transform: translateX(0px) rotate(0deg);
-    }
-}
 
     
 
